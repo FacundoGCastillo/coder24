@@ -1,0 +1,149 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* header*/
+header{
+    background-color: #02505B;
+}
+
+main{
+    background-color: rgb(209, 204, 199);
+}
+footer{
+    background-color: #02505B;
+
+}
+
+h1 {
+    text-align: center;
+    font-family: 'Anton', sans-serif;
+    padding-top: 20px;
+}
+/*opcion para navejar*/
+.opciones {
+    text-align: center;
+}
+.caja1 {
+border: 1px solid black;
+background-color: #02505B;
+/* font-weight: bold;  */
+width: 300px;
+height: 120px;
+line-height: auto;
+text-align: center; 
+margin: 5px;
+line-height: 120px;
+}
+
+.titulo {
+padding: 100px;
+}
+
+.caja2 {
+    border: 1px solid black;
+    background-color: #02505B;
+    /* font-weight: bold;  */
+    width: 300px;
+    height: 120px;
+    line-height: auto;
+    text-align: center; 
+    margin: 5px;
+    line-height: 120px;
+    }
+    .caja3 {
+        border: 1px solid black;
+        background-color: #02505B;
+        /* font-weight: bold;  */
+        width: 300px;
+        height: 120px;
+        line-height: auto;
+        text-align: center; 
+        margin: 5px;
+        line-height: 120px;
+        }
+        .caja4 {
+            border: 1px solid black;
+            background-color: #02505B;
+            /* font-weight: bold;  */
+            width: 300px;
+            height: 120px;
+            line-height: auto;
+            text-align: center; 
+            margin: 5px;
+            line-height: 120px;
+            }
+.cajamadre {
+    /* margin: 5px;
+    display: flex;
+    justify-content: center;
+    display: flex; */
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: 50% 50%;
+    gap: 50px;
+    justify-items: center;
+    align-content: center;
+    padding-bottom: 50px;
+}
+.cajamadre2 {
+    margin: 5px;
+    display: flex;
+    justify-content: center;
+
+}
+.largo{
+    text-align-last: center;
+    font-size: 1rem;
+}
+.logo{
+    width: 150px;
+    align-content: center;
+}
+.logore{
+text-align: center;
+}
+
+.registrar {
+    text-align: end;
+    
+}
+.wsp {
+    position: fixed;
+    top: 0%;
+}
+.pie {
+    display: flex;
+    justify-content: space-between;
+    padding: 50px;
+}
+
+/* compañias */
+
+.compas {
+    display: grid;
+grid-template-columns: auto auto;
+grid-template-rows: auto auto;
+    gap: 50px;
+    justify-items: center;
+    align-content: center;
+    padding-bottom: 50px;
+    padding-top: 20px;
+    
+}
+.inc{
+    text-align: left;
+}
+
+@media screen and (max-width:480px) {
+    .cajamadre{
+        display: grid;
+        grid-template-columns: 50% 50%;
+        grid-template-rows: 50% 50%;
+        justify-items: center;
+        align-content: center;
+        padding-bottom: 5px;
+    }
+}
